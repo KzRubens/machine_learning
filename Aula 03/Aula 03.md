@@ -2270,33 +2270,29 @@ Muito mais fácil de interpretar.
 
 ```python
 import pandas as pd
-
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
+
+from sklearn.datasets import load_iris
+
+# ESSA LINHA CRIA A VARIÁVEL 'dados':
+dados = load_iris() 
 df = pd.read_csv("alunos_tratado.csv")
 
 X = df[["Idade", "Nota", "Frequencia"]]
 y = df["Aprovado"]
 
 X_treino, X_teste, y_treino, y_teste = train_test_split(
-    X,
-    y,
-    test_size=0.2,
-    random_state=42
+    X, y, test_size=0.2, random_state=42
 )
 
 modelo = DecisionTreeClassifier()
-
 modelo.fit(X_treino, y_treino)
 
 previsoes = modelo.predict(X_teste)
-
-acuracia = accuracy_score(
-    y_teste,
-    previsoes
-)
+acuracia = accuracy_score(y_teste, previsoes)
 
 print(f"Acurácia: {acuracia:.2%}")
 ```
@@ -2607,6 +2603,7 @@ Primeiro importamos.
 from sklearn.tree import plot_tree
 
 import matplotlib.pyplot as plt
+
 ```
 
 ---
@@ -2622,15 +2619,19 @@ plot_tree(
 
     modelo,
 
-    feature_names=X.columns,
+    feature_names=dados.feature_names,
 
-    class_names=["Não","Sim"],
+    class_names=dados.target_names,
 
-    filled=True
+    filled=True,
 
+    rounded=True,
+
+     fontsize=10
 )
 
 plt.show()
+
 ```
 
 ---
