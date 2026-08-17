@@ -1,0 +1,31 @@
+KIT AULA 6 — COMO AVALIAR UM MODELO DE CLASSIFICAÇÃO?
+
+Arquivos:
+- 06_metricas_classificacao_alunos.ipynb: notebook guiado para o Google Colab.
+- atrasos_medicamentos.csv: dataset principal com 180 registros sintéticos; é o mesmo conjunto da Aula 5.
+- atrasos_medicamentos_desbalanceado.csv: 240 registros sintéticos, com 90% da classe 0 e 10% da classe 1.
+- dicionario_dados_aula06.csv: descrição das colunas, dos arquivos e dos papéis na atividade.
+
+COMO USAR NO GOOGLE COLAB
+1. Acesse https://colab.research.google.com/.
+2. Abra a guia Upload e selecione 06_metricas_classificacao_alunos.ipynb.
+3. Execute as células em ordem.
+4. Quando solicitado, envie atrasos_medicamentos.csv.
+5. Na seção de classes desbalanceadas, envie atrasos_medicamentos_desbalanceado.csv.
+6. Edite a conclusão e os parâmetros do desafio antes da entrega.
+
+OBJETIVOS DA PRÁTICA
+- Ler matriz de confusão e identificar VN, FP, FN e VP.
+- Calcular e interpretar acurácia, precisão, recall e F1-score.
+- Comparar KNN e Árvore de Decisão.
+- Perceber por que a acurácia isolada pode enganar em classes desbalanceadas.
+- Escolher um modelo de acordo com o custo dos erros no contexto estudado.
+
+RESULTADO DIDÁTICO ESPERADO
+No conjunto principal, KNN e Árvore obtêm a mesma acurácia com a configuração inicial,
+mas apresentam quantidades diferentes de falsos positivos e falsos negativos. Essa
+diferença sustenta a discussão sobre precisão, recall e escolha contextual do modelo.
+
+OBSERVAÇÃO ÉTICA
+Os dados são sintéticos e a atividade é exclusivamente educacional.
+Os modelos não estão validados para decisões reais de saúde.

@@ -1,0 +1,11 @@
+criterio,pergunta_de_verificacao,pontos
+Papel adequado,O papel corresponde à função real e não atribui autoridade indevida?,1
+Tarefa clara,O verbo e o resultado esperado estão explícitos?,1
+Contexto suficiente,Os dados necessários foram fornecidos e delimitados?,1
+Uso exclusivo dos dados,O prompt proíbe acrescentar informações não fornecidas?,1
+Informação ausente,Há orientação para declarar insuficiência de informação?,1
+Formato,"A estrutura, extensão ou campos da resposta estão definidos?",1
+Privacidade,Dados pessoais ou sensíveis foram removidos ou minimizados?,1
+Limites da tarefa,"O prompt evita diagnóstico, prescrição ou decisões indevidas?",1
+Validação humana,Está claro quem revisará a saída antes de utilizá-la?,1
+Teste de alucinação,O prompt foi testado com uma pergunta sem resposta nos dados?,1

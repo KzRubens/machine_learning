@@ -1,0 +1,14 @@
+KIT AULA 8 — IA GENERATIVA E PROMPT ENGINEERING
+
+Arquivos:
+- 08_ia_generativa_prompts_alunos.ipynb: laboratório guiado sem necessidade de API.
+- casos_prompt_aula08.csv: 12 situações de quatro projetos.
+- checklist_avaliacao_prompts.csv: rubrica de 10 pontos.
+- dicionario_dados_aula08.csv: descrição dos campos.
+- modelo_entrega_aula08.md: estrutura pronta da entrega solicitada.
+
+Abra o notebook no Colab, envie os CSVs quando solicitado e escolha um caso.
+O grupo deverá testar os prompts V1, V2 e V3 na ferramenta autorizada, colar as
+respostas, executar o teste de informação ausente e completar o arquivo Markdown.
+
+Não use dados pessoais ou sensíveis reais. Toda saída deve ser revisada por uma pessoa.

@@ -2,6 +2,9 @@
 
 **© @karizeviecelli - 2026**
 
+Link Colab
+https://colab.research.google.com/drive/1t16lSfboeMP883QyvGiyorjt-Nu-e9Nz?usp=sharing
+
 ## Objetivo da aula
 
 Nesta aula você utilizará o dataset tratado para construir, treinar, testar, avaliar, visualizar e salvar um modelo de classificação.

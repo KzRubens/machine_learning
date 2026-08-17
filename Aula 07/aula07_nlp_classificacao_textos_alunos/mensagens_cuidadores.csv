@@ -1,0 +1,76 @@
+id_texto,texto,categoria
+T001,dormiu pouco durante a noite,sono
+T002,acordou várias vezes de madrugada,sono
+T003,teve sono tranquilo e contínuo,sono
+T004,demorou para adormecer ontem,sono
+T005,cochilou durante toda a tarde,sono
+T006,relatou insônia durante a noite,sono
+T007,acordou cedo e parecia cansado,sono
+T008,sono foi interrompido muitas vezes,sono
+T009,descansou bem até pela manhã,sono
+T010,não conseguiu dormir depois das três,sono
+T011,ficou sonolento após o almoço,sono
+T012,passou a noite agitado,sono
+T013,dormiu oito horas sem interrupções,sono
+T014,teve pesadelos e despertou assustado,sono
+T015,acordou disposto após bom descanso,sono
+T016,levantou duas vezes durante a madrugada,sono
+T017,foi dormir mais cedo hoje,sono
+T018,apresentou cansaço por falta de sono,sono
+T019,repousou por uma hora no período da tarde,sono
+T020,teve dificuldade para manter o sono,sono
+T021,descansou melhor do que ontem,sono
+T022,permaneceu acordado até muito tarde,sono
+T023,dormiu bem após a rotina noturna,sono
+T024,acordou com muita sonolência,sono
+T025,teve uma noite calma e descansada,sono
+T026,recusou o almoço hoje,alimentacao
+T027,comeu todo o café da manhã,alimentacao
+T028,teve pouco apetite no jantar,alimentacao
+T029,aceitou frutas no lanche da tarde,alimentacao
+T030,bebeu água durante as refeições,alimentacao
+T031,deixou metade da comida no prato,alimentacao
+T032,pediu uma segunda porção de sopa,alimentacao
+T033,não quis comer os legumes,alimentacao
+T034,alimentou-se bem durante o dia,alimentacao
+T035,beliscou apenas um pedaço de pão,alimentacao
+T036,terminou o prato sem dificuldade,alimentacao
+T037,preferiu suco no café da manhã,alimentacao
+T038,recusou a sobremesa depois do almoço,alimentacao
+T039,comeu arroz feijão e salada,alimentacao
+T040,demonstrou fome antes do jantar,alimentacao
+T041,tomou pouco líquido pela manhã,alimentacao
+T042,aceitou o lanche oferecido,alimentacao
+T043,teve náusea e interrompeu a refeição,alimentacao
+T044,comeu devagar mas concluiu o almoço,alimentacao
+T045,não mostrou interesse pela comida,alimentacao
+T046,pediu água várias vezes,alimentacao
+T047,comeu uma fruta antes de dormir,alimentacao
+T048,deixou o café esfriar sem beber,alimentacao
+T049,aceitou alimentação leve no jantar,alimentacao
+T050,manteve bom apetite em todas as refeições,alimentacao
+T051,medicamento administrado no horário,medicacao
+T052,remédio atrasou quinze minutos,medicacao
+T053,recusou tomar a medicação,medicacao
+T054,comprimido foi oferecido após o almoço,medicacao
+T055,dose da manhã foi registrada,medicacao
+T056,medicamento noturno ainda não foi administrado,medicacao
+T057,tomou o remédio com água,medicacao
+T058,horário da medicação foi confirmado,medicacao
+T059,dose prescrita estava disponível,medicacao
+T060,esqueceu o comprimido da tarde,medicacao
+T061,medicação foi conferida antes do uso,medicacao
+T062,remédio foi administrado sem atraso,medicacao
+T063,registro da dose ficou pendente,medicacao
+T064,aceitou o medicamento normalmente,medicacao
+T065,frasco do remédio estava quase vazio,medicacao
+T066,dose foi adiada conforme registro,medicacao
+T067,comprimido da manhã foi recusado,medicacao
+T068,medicação foi separada para o horário correto,medicacao
+T069,tomou a dose após o lembrete,medicacao
+T070,registro informa medicamento já administrado,medicacao
+T071,houve atraso no remédio da noite,medicacao
+T072,dose diária foi confirmada no sistema,medicacao
+T073,medicamento foi entregue pelo cuidador,medicacao
+T074,não houve alteração na rotina de medicação,medicacao
+T075,lembrete do remédio foi atendido,medicacao

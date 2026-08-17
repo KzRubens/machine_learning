@@ -1,0 +1,7 @@
+coluna,tipo,papel_na_aula,dominio_ou_regra,descricao,exemplo
+id_registro,texto,identificador,R001 a R180 ou N001 a N012,Identifica cada observação sem expor dados pessoais.,R001
+dia_semana,categórico,contexto; não usada no primeiro modelo,Segunda a Domingo,Dia em que o registro foi observado.,Sexta
+turno,categórico,contexto; não usada no primeiro modelo,"Manhã, Tarde ou Noite",Turno do horário programado.,Noite
+quantidade_lembretes,inteiro,feature,1 a 5,Quantidade de lembretes enviados para o horário.,3
+atraso_medio,inteiro,feature,0 a 55 minutos,Média histórica de atraso em situações semelhantes.,20
+medicamento_atrasado,inteiro binário,target; somente no dataset principal,0 = não atrasou; 1 = atrasou,Classe que o modelo deverá prever.,1

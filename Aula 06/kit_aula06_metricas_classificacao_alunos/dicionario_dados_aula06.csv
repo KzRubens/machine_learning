@@ -1,0 +1,9 @@
+arquivo,coluna,tipo,papel_na_aula,dominio_ou_regra,descricao,exemplo
+ambos,id_registro,texto,identificador,R001 a R180 ou D001 a D240,Identifica cada observação sem expor dados pessoais.,R001
+ambos,dia_semana,categórico,contexto; não usada no modelo básico,Segunda a Domingo,Dia em que o registro foi observado.,Sexta
+ambos,turno,categórico,contexto; não usada no modelo básico,"Manhã, Tarde ou Noite",Turno do horário programado.,Noite
+ambos,quantidade_lembretes,inteiro,feature,1 a 5,Quantidade de lembretes enviados para o horário.,3
+ambos,atraso_medio,inteiro,feature,0 a 55 minutos,Média histórica de atraso em situações semelhantes.,20
+ambos,medicamento_atrasado,inteiro binário,target,0 = não atrasou; 1 = atrasou,Classe que os modelos deverão prever.,1
+atrasos_medicamentos.csv,—,dataset,comparação principal,180 registros; classes aproximadamente equilibradas,Reutiliza o conjunto da Aula 5 para comparar KNN e Árvore.,84 da classe 0 e 96 da classe 1
+atrasos_medicamentos_desbalanceado.csv,—,dataset,experimento de desbalanceamento,240 registros; 90% classe 0 e 10% classe 1,Mostra por que acurácia alta pode esconder recall igual a zero.,216 da classe 0 e 24 da classe 1

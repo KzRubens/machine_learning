@@ -1,0 +1,9 @@
+arquivo,coluna,tipo,papel_na_aula,dominio_ou_regra
+casos_prompt_aula08.csv,id_caso,texto,identificador,C01 a C12
+casos_prompt_aula08.csv,projeto,categórico,contexto,"agenda, fiscalizacao, cuidadores ou nr1"
+casos_prompt_aula08.csv,tarefa,texto,instrução,ação solicitada ao modelo
+casos_prompt_aula08.csv,dados,texto estruturado,contexto,única fonte permitida para a resposta
+casos_prompt_aula08.csv,informacao_ausente,texto,teste antialucinação,item propositalmente não informado
+casos_prompt_aula08.csv,regra_seguranca,texto,restrição,limite contextual ou ético
+casos_prompt_aula08.csv,formato,texto,saída esperada,estrutura desejada da resposta
+checklist_avaliacao_prompts.csv,criterio/pergunta/pontos,rubrica,autoavaliação,10 critérios de 1 ponto

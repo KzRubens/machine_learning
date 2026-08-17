@@ -1,0 +1,12 @@
+KIT AULA 7 — NLP E CLASSIFICAÇÃO DE TEXTOS
+
+Arquivos:
+- 07_nlp_classificacao_textos_alunos.ipynb: prática guiada no Colab.
+- mensagens_cuidadores.csv: 75 frases sintéticas, 25 por categoria.
+- frases_externas_aula07.csv: cinco testes que não pertencem ao dataset principal.
+- dicionario_dados_aula07.csv: descrição das colunas.
+
+No Colab, abra o notebook, execute em ordem e envie os CSVs quando solicitado.
+Antes da entrega, o grupo deve alterar a frase do desafio, analisar erros e escrever a conclusão.
+
+Dados sintéticos; uso exclusivamente educacional.

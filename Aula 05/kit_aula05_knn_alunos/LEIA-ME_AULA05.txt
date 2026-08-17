@@ -1,0 +1,18 @@
+KIT AULA 5 — KNN: CLASSIFICAÇÃO POR VIZINHOS MAIS PRÓXIMOS
+
+Arquivos:
+- 05_knn_atraso_medicamentos_alunos.ipynb: notebook guiado para o Google Colab.
+- atrasos_medicamentos.csv: dataset principal com 180 registros sintéticos e target.
+- novos_registros_medicamentos.csv: 12 registros sem target para novas previsões.
+- dicionario_dados_aula05.csv: descrição das colunas, tipos e papéis.
+
+COMO USAR NO GOOGLE COLAB
+1. Acesse https://colab.research.google.com/.
+2. Abra a guia Upload e selecione o arquivo .ipynb.
+3. Execute as células em ordem.
+4. Quando solicitado, envie atrasos_medicamentos.csv.
+5. Na etapa de novas previsões, envie novos_registros_medicamentos.csv.
+
+OBSERVAÇÃO ÉTICA
+Os dados são sintéticos e a atividade é exclusivamente educacional.
+O modelo não está validado para decisões reais de saúde.

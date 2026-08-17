@@ -1,0 +1,7 @@
+arquivo,coluna,tipo,papel_na_aula,dominio_ou_regra,descricao
+mensagens_cuidadores.csv,id_texto,texto,identificador,T001 a T075,Identifica a frase sintética.
+mensagens_cuidadores.csv,texto,texto livre,feature original,frase curta em português,Registro que será vetorizado.
+mensagens_cuidadores.csv,categoria,categórico,target,"sono, alimentacao ou medicacao",Classe correta da frase.
+frases_externas_aula07.csv,id_texto,texto,identificador,E001 a E005,Identifica o teste externo.
+frases_externas_aula07.csv,texto,texto livre,entrada externa,frase não usada no dataset principal,Testa generalização do modelo.
+frases_externas_aula07.csv,categoria_real,categórico,gabarito,"sono, alimentacao ou medicacao",Permite conferir a previsão.

@@ -1,0 +1,13 @@
+id_registro,dia_semana,turno,quantidade_lembretes,atraso_medio
+N001,Segunda,Manhã,1,1
+N002,Terça,Tarde,2,7
+N003,Quarta,Noite,3,18
+N004,Quinta,Manhã,4,12
+N005,Sexta,Noite,5,31
+N006,Sábado,Tarde,2,15
+N007,Domingo,Noite,4,27
+N008,Segunda,Noite,1,10
+N009,Terça,Manhã,5,20
+N010,Quarta,Tarde,3,5
+N011,Quinta,Noite,2,22
+N012,Domingo,Manhã,1,0
